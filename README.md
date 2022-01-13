@@ -1,5 +1,5 @@
 # MyPython
-用于记录学习Python过程中的一些笔记，以及练习的源代
+用于记录学习Python过程中的一些笔记，以及练习的源代码
 
 ```python
 print('hello world')

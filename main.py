@@ -11,8 +11,8 @@ import pymysql
 
 
 def api_information():
-    url = "http://api.heclouds.com/devices/523698851/datapoints"
-    headers = {"api-key": '4VdbaFeRQZRwaSTWNhWxb2UEHaw=', "Content-Type": 'application/json'}
+    url = "url"
+    headers = {"api-key": 'string', "Content-Type": 'application/json'}
     num = 2
     data = {'limit': num}
     receive = requests.get(url, headers=headers, params=data).text
